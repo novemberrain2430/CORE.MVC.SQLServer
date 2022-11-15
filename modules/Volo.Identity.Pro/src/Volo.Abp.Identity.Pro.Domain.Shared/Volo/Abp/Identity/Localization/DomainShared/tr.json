@@ -1,0 +1,18 @@
+﻿{
+  "culture": "tr",
+  "texts": {
+    "Feature:IdentityGroup": "Kimlik",
+    "Feature:TwoFactor": "İki faktörlü kimlik doğrulama",
+    "Feature:TwoFactorDescription": "İki faktörlü kimlik doğrulamanın talep edileceği durumu seçin",
+    "Feature:TwoFactor.Optional": "İsteğe bağlı",
+    "Feature:TwoFactor.Disabled": "Asla",
+    "Feature:TwoFactor.Forced": "Her zaman",
+    "DisplayName:Abp.Identity.TwoFactorBehaviour": "İki faktörlü kimlik doğrulama davranışı",
+    "Description:Abp.Identity.TwoFactorBehaviour": "İki faktörlü kimlik doğrulama davranışı",
+    "DisplayName:Abp.Identity.UsersCanChange": "Kullanıcıların iki faktörlü kimlik doğrulama davranışını değiştirmelerine izin verin.",
+    "Description:Abp.Identity.UsersCanChange": "Kullanıcıların iki faktörlü kimlik doğrulama davranışını değiştirmelerine izin verin",
+    "Feature:MaximumUserCount": "Kullanıcı sayısı limiti",
+    "Feature:MaximumUserCountDescription":"0 = limitsiz",
+    "Volo.Abp.Identity:010009": "İzin verilen kullanıcı sayısına ulaşıldı! Bu müşteri için en fazla {MaxUserCount} kullanıcı oluşturulabilir."
+  }
+}

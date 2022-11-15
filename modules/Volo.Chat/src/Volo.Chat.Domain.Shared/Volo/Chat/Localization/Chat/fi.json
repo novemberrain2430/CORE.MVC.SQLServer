@@ -1,0 +1,33 @@
+{
+  "culture": "fi",
+  "texts": {
+    "Volo.Chat:010001": "Viestin ei tule olla tyhjä!",
+    "Volo.Chat:010002": "Vastaanottimen käyttäjää ei löydy!",
+    "Volo.Chat:010003": "Muita käyttäjiä ei löytynyt!",
+    "Permission:Chat": "Chat",
+    "Permission:Messaging": "Viestit",
+    "Feature:ChatGroup": "Chat",
+    "Feature:ChatEnable": "Ota chat käyttöön",
+    "Feature:ChatEnableDescription": "Ota viestijärjestelmä käyttöön sovelluksessa.",
+    "SearchInContacts": "Hae Contacsista...",
+    "SendOnEnter": "Lähetä, kirjoita",
+    "Send": "Lähettää",
+    "OtherContacts": "MUUT YHTEYDET",
+    "TypeMessage": "Kirjoita viesti",
+    "YouHave{0}UnreadMessages": "Sinulla on {0} lukematonta viestiä",
+    "YouHaveAnUnreadMessage": "Sinulla on lukematon viesti",
+    "NewChatMessage": "Uusi chat-viesti",
+    "Jan": "Jan",
+    "Feb": "Helmikuu",
+    "Mar": "Maalis",
+    "Apr": "Huhti",
+    "May": "saattaa",
+    "Jun": "Kesäkuu",
+    "Jul": "Heinäkuu",
+    "Aug": "Elokuu",
+    "Sept": "Syyskuu",
+    "Oct": "Lokakuu",
+    "Nov": "marraskuu",
+    "Dec": "Joulu"
+  }
+}

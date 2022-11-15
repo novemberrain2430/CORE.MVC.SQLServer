@@ -1,0 +1,33 @@
+{
+  "culture": "sk",
+  "texts": {
+    "Volo.Chat:010001": "Správa by nemala byť prázdna!",
+    "Volo.Chat:010002": "Príjemca nebol nájdený!",
+    "Volo.Chat:010003": "Druhý používateľ nebol nájdený!",
+    "Permission:Chat": "Chat",
+    "Permission:Messaging": "Zasielanie správ",
+    "Feature:ChatGroup": "Chat",
+    "Feature:ChatEnable": "Povoliť chat",
+    "Feature:ChatEnableDescription": "Povoliť systém odosielania správ v aplikácii.",
+    "SearchInContacts": "Vyhľadať v kontaktoch...",
+    "SendOnEnter": "Odoslať stlačením enter",
+    "Send": "Odoslať",
+    "OtherContacts": "OSTATNÉ KONTAKTY",
+    "TypeMessage": "Napíšte správu",
+    "YouHave{0}UnreadMessages": "Máte {0} neprečítaných správ",
+    "YouHaveAnUnreadMessage": "Máte neprečítanú správu",
+    "NewChatMessage": "Nová správa v chate",
+    "Jan": "Jan",
+    "Feb": "Feb",
+    "Mar": "Mar",
+    "Apr": "Apr",
+    "May": "Máj",
+    "Jun": "Jún",
+    "Jul": "Júl",
+    "Aug": "Aug",
+    "Sept": "Sept",
+    "Oct": "Okt",
+    "Nov": "Nov",
+    "Dec": "Dec"
+  }
+}

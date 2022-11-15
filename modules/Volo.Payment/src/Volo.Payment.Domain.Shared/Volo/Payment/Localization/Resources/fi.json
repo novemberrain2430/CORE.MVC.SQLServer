@@ -1,0 +1,10 @@
+﻿{
+	"culture": "fi",
+	"texts": {
+		"PayWithGateway": "Maksa: {0}",
+		"two-checkout": "2Kassalle",
+		"payu": "PayU",
+		"paypal": "PayPal",
+		"stripe": "Raita"
+	}
+}

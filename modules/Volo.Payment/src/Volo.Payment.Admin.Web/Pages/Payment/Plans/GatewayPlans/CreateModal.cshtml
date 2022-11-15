@@ -1,0 +1,24 @@
+﻿@page
+
+@using Volo.Payment.Admin.Web.Pages.Payment.Plans.GatewayPlans
+@using Volo.Payment.Admin.Web.Pages
+@using Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.TagHelpers.Modal
+
+@inherits PaymentAdminPageBase
+
+@model CreateModalModel
+
+@{
+    Layout = null;
+}
+
+<abp-dynamic-form abp-model="ViewModel" asp-page="/Payment/Plans/GatewayPlans/CreateModal">
+    <abp-modal>
+        <abp-modal-header title="@L["NewGatewayPlan"].Value"></abp-modal-header>
+        <abp-modal-body>
+            <abp-input asp-for="PlanId" />
+            <abp-form-content />
+        </abp-modal-body>
+        <abp-modal-footer buttons="@(AbpModalButtons.Cancel | AbpModalButtons.Save)"></abp-modal-footer>
+    </abp-modal>
+</abp-dynamic-form>

@@ -1,0 +1,30 @@
+{
+  "culture": "fi",
+  "texts": {
+    "Volo.Saas:DuplicateTenantName": "Vuokralaisen nimi on jo olemassa: {Name}",
+    "Menu:Saas": "Saas",
+    "Tenants": "Vuokralaiset",
+    "NewTenant": "Uusi vuokralainen",
+    "TenantName": "Vuokralaisen nimi",
+    "DisplayName:TenantName": "Vuokralaisen nimi",
+    "TenantDeletionConfirmationMessage": "Vuokralainen {0} poistetaan. Vahvistatko sen?",
+    "EditionDeletionConfirmationMessage": "Painos {0} poistetaan. Vahvistatko sen?",
+    "ConnectionStrings": "Yhteysjonot",
+    "DisplayName:UseSharedDatabase": "Käytä jaettua tietokantaa",
+    "DisplayName:EditionId": "Painos",
+    "Edition": "Painos",
+    "Editions": "Painokset",
+    "NewEdition": "Uusi painos",
+    "EditionName": "Painoksen nimi",
+    "Name": "Nimi",
+    "LatestTenants": "Viimeisimmät vuokralaiset",
+    "EditionUsageStatistics": "Painoksen käyttötilastot",
+    "DisplayName:AdminEmailAddress": "Vuokralaisen järjestelmänvalvojan sähköpostiosoite",
+    "DisplayName:AdminPassword": "Vuokralaisen järjestelmänvalvojan salasana",
+    "ChangeHistory": "Muutoshistoria",
+    "ManageHostFeatures": "Hallinnoi isäntäominaisuuksia",
+    "ApplyDatabaseMigrations": "Käytä tietokannan siirtoja",
+    "DatabaseMigrationQueuedAndWillBeApplied": "Tietokannan siirto on jonossa ja sitä käytetään pian.",
+    "Saas:Edition:0001": "Edition doesn't have a plan!"
+  }
+}

@@ -1,0 +1,49 @@
+﻿@page
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Volo.Abp.AspNetCore.Mvc.UI.Layout
+@using Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.Pages.Shared.Components.AbpPageToolbar
+@using Volo.CmsKit.Localization
+@using Volo.CmsKit.Pro.Admin.Web.Menus
+@using Volo.CmsKit.Pro.Admin.Web.Pages.CmsKit.Newsletters
+@model IndexModel
+@inject IPageLayout PageLayout
+@inject IHtmlLocalizer<CmsKitResource> L
+
+@{
+    PageLayout.Content.Title = L["Newsletters"].Value;
+    PageLayout.Content.BreadCrumb.Add(L["Menu:CMS"].Value);
+    PageLayout.Content.MenuItemName = CmsKitProAdminMenus.Newsletters.NewsletterMenu;
+}
+
+@section scripts {
+    <abp-script src="/Pages/CmsKit/Newsletters/Index.js"/>
+}
+
+@section content_toolbar {
+    @await Component.InvokeAsync(typeof(AbpPageToolbarViewComponent), new {pageName = typeof(IndexModel).FullName})
+}
+
+<abp-card>
+    <abp-card-body>
+        <abp-row id="AdvancedFilterSection">
+            <abp-column size-lg="_6" size-md="_6">
+                <abp-select asp-items="@Model.PreferencesSelectList" asp-for="Preference"/>
+            </abp-column>
+            <abp-column size-lg="_6" size-md="_6">
+                <div class="form-group">
+                    <label for="Source">@L["Source"]</label>
+                    <div class="input-group">
+                        <input asp-for="Source" placeholder="@L["Source"]" class="form-control"/>
+                        <div class="input-group-append">
+                            <abp-button button-type="Primary" id="RefreshSourceButton">
+                                <i class="fa fa-sync" aria-hidden="true"></i>
+                            </abp-button>
+                        </div>
+                    </div>
+                </div>
+            </abp-column>
+        </abp-row>
+    </abp-card-body>
+</abp-card>
+
+<abp-table striped-rows="true" id="NewslettersTable" class="nowrap"></abp-table>

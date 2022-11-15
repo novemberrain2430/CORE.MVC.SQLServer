@@ -1,0 +1,29 @@
+{
+  "culture": "sk",
+  "texts": {
+    "Volo.Saas:DuplicateTenantName": "Názov tenanta už existuje: {Name}",
+    "Menu:Saas": "Saas",
+    "Tenants": "Tenanti",
+    "NewTenant": "Nový tenant",
+    "TenantName": "Meno tenanta",
+    "DisplayName:TenantName": "Meno tenanta",
+    "TenantDeletionConfirmationMessage": "Tenant \"{0}\" bude zmazaný. Chcete akciu potvrdiť?",
+    "EditionDeletionConfirmationMessage": "Edícia \"{0}\" bude zmazaná. Chcete akciu potvrdiť?",
+    "ConnectionStrings": "Connection Strings",
+    "DisplayName:UseSharedDatabase": "Používať zdieľanú databázu",
+    "DisplayName:EditionId": "Edícia",
+    "Edition": "Edícia",
+    "Editions": "Edície",
+    "NewEdition": "Nová edícia",
+    "EditionName": "Názov edície",
+    "Name": "Názov",
+    "LatestTenants": "Najnovší tenanti",
+    "EditionUsageStatistics": "Štatistiky používania edície",
+    "DisplayName:AdminEmailAddress": "Emailová adresa tenantovho administrátora",
+    "DisplayName:AdminPassword": "Heslo tenantovho administrátora",
+    "ChangeHistory": "História zmien",
+    "ManageHostFeatures": "Správovať funkcie poskytovateľa",
+    "ApplyDatabaseMigrations": "Aplikovať databázové migrácie",
+    "DatabaseMigrationQueuedAndWillBeApplied": "Databázová migrácia bola zaradená do frontu a čoskoro sa začne aplikovať."
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "folders": {
+    "src": {},
+    "test": {}
+  },
+  "imports": {
+    "Volo.Abp.AuditLogging": {
+      "path": "../../../abp/modules/audit-logging/Volo.Abp.AuditLogging.abpmdl.json"
+    }
+  },
+  "packages": {
+    "Volo.Abp.AuditLogging.Application.Contracts": {
+      "path": "src/Volo.Abp.AuditLogging.Application.Contracts/Volo.Abp.AuditLogging.Application.Contracts.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.application.contracts": {}
+      }
+    },
+    "Volo.Abp.AuditLogging.Application": {
+      "path": "src/Volo.Abp.AuditLogging.Application/Volo.Abp.AuditLogging.Application.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.application": {}
+      }
+    },
+    "Volo.Abp.AuditLogging.HttpApi": {
+      "path": "src/Volo.Abp.AuditLogging.HttpApi/Volo.Abp.AuditLogging.HttpApi.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.http-api": {}
+      }
+    },
+    "Volo.Abp.AuditLogging.HttpApi.Client": {
+      "path": "src/Volo.Abp.AuditLogging.HttpApi.Client/Volo.Abp.AuditLogging.HttpApi.Client.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.http-api-client": {}
+      }
+    },
+    "Volo.Abp.AuditLogging.Web": {
+      "path": "src/Volo.Abp.AuditLogging.Web/Volo.Abp.AuditLogging.Web.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.ui.mvc": {}
+      }
+    },
+    "Volo.Abp.AuditLogging.Blazor": {
+      "path": "src/Volo.Abp.AuditLogging.Blazor/Volo.Abp.AuditLogging.Blazor.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.ui.blazor": {}
+      }
+    },
+    "Volo.Abp.AuditLogging.Blazor.Server": {
+      "path": "src/Volo.Abp.AuditLogging.Blazor.Server/Volo.Abp.AuditLogging.Blazor.Server.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.ui.blazor-server": {}
+      }
+    },
+    "Volo.Abp.AuditLogging.Blazor.WebAssembly": {
+      "path": "src/Volo.Abp.AuditLogging.Blazor.WebAssembly/Volo.Abp.AuditLogging.Blazor.WebAssembly.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.ui.blazor-wasm": {}
+      }
+    },
+    "Volo.Abp.AuditLogging.Application.Tests": {
+      "path": "test/Volo.Abp.AuditLogging.Application.Tests/Volo.Abp.AuditLogging.Application.Tests.csproj",
+      "folder": "test",
+      "includes": {
+        "lib.test": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"version": "1.0.0",
+	"name": "my-app",
+	"private": true,
+	"dependencies": {
+		"@abp/blogging": "4.4.4",
+		"@abp/docs": "4.4.4",
+		"@volo/abp.aspnetcore.mvc.ui.theme.lepton": "^4.4.4",
+		"@volo/account": "^4.4.4",
+		"@volo/audit-logging": "^4.4.4",
+		"@volo/chat": "4.4.4",
+		"@volo/cms-kit-pro": "4.4.4",
+		"@volo/cms-kit-pro.admin": "^4.4.4",
+		"@volo/file-management": "4.4.4",
+		"@volo/forms": "4.4.4",
+		"@volo/identity": "^4.4.4",
+		"@volo/saas": "^4.4.4"
+	}
+}

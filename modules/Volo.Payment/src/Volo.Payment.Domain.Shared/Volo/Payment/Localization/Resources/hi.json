@@ -1,0 +1,10 @@
+﻿{
+	"culture": "hi",
+	"texts": {
+		"PayWithGateway": "{0} के साथ भुगतान करें",
+		"two-checkout": "2 चेकआउट करें",
+		"payu": "पे",
+		"paypal": "पेपैल",
+		"stripe": "पट्टी"
+	}
+}

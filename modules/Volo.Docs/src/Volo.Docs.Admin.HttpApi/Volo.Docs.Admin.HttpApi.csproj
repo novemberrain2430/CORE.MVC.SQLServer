@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  
+  
+
+  <PropertyGroup><LangVersion>latest</LangVersion>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Volo.Docs.Admin.HttpApi</AssemblyName>
+    <PackageId>Volo.Docs.Admin.HttpApi</PackageId>
+    <RootNamespace />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Volo.Docs.Admin.Application.Contracts\Volo.Docs.Admin.Application.Contracts.csproj" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="4.4.4" />
+  </ItemGroup>
+
+</Project>

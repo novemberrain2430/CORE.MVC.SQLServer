@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Sample.HttpApi.Client.ConsoleTestApp": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:14538;http://localhost:14539"
+    }
+  }
+}

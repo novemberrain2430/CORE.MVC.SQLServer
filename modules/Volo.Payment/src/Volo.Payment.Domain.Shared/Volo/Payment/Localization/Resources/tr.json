@@ -1,0 +1,33 @@
+{
+  "culture": "tr",
+  "texts": {
+    "Delete": "Sil",
+    "DisplayName:ExternalId": "Harici Id",
+    "DisplayName:Gateway": "Sağlayıcı",
+    "DisplayName:Name": "İsim",
+    "Edit": "Güncelle",
+    "GatewayPlanDeletionConfirmationMessage": "Ödeme sağlayıcı silinecektir. Emin misiniz?",
+    "GatewayPlans": "Ödeme Sağlayıcı Planlarını Yönet",
+    "Menu:PaymentManagement": "Ödeme",
+    "Menu:Plans": "Ödeme Planları",
+    "NewGatewayPlan": "Yeni Ödeme Sağlayıcısı",
+    "NewPlan": "Yeni Plan",
+    "Payment:Request:0001": "Var olan Harici Plan Id güncellenemiyor.",
+    "paypal": "PayPal",
+    "payu": "PayU",
+    "PayWithGateway": "{0} ile öde",
+    "Permission:PaymentGatewayPlanManagement": "Ödeme Sağlayıcı Plan Yönetimi",
+    "Permission:PaymentGatewayPlanManagement.Create": "Oluştur",
+    "Permission:PaymentGatewayPlanManagement.Delete": "Sil",
+    "Permission:PaymentGatewayPlanManagement.Update": "Güncelle",
+    "Permission:PaymentPlanManagement": "Ödeme Planları Yönetimi",
+    "Permission:PaymentPlanManagement.Create": "Oluştur",
+    "Permission:PaymentPlanManagement.Delete": "Sil",
+    "Permission:PaymentPlanManagement.Update": "Güncelle",
+    "PlanDeletionConfirmationMessage": "Plan silinecektir. Emin misiniz?",
+    "Plans": "Planlar",
+    "Search": "Ara",
+    "stripe": "Stripe",
+    "two-checkout": "2Checkout"
+  }
+}

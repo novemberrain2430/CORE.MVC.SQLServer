@@ -1,0 +1,33 @@
+{
+  "culture": "hi",
+  "texts": {
+    "Volo.Chat:010001": "संदेश खाली नहीं होना चाहिए!",
+    "Volo.Chat:010002": "रिसीवर उपयोगकर्ता नहीं मिला!",
+    "Volo.Chat:010003": "अन्य उपयोगकर्ता नहीं मिला!",
+    "Permission:Chat": "चैट",
+    "Permission:Messaging": "संदेश",
+    "Feature:ChatGroup": "चैट",
+    "Feature:ChatEnable": "चैट सक्षम करें",
+    "Feature:ChatEnableDescription": "मैसेजिंग सिस्टम को एप्लिकेशन में सक्षम करें।",
+    "SearchInContacts": "Contacs में खोजें...",
+    "SendOnEnter": "दर्ज पर भेजें",
+    "Send": "संदेश",
+    "OtherContacts": "अन्य संपर्क",
+    "TypeMessage": "एक संदेश लिखें",
+    "YouHave{0}UnreadMessages": "आपके पास {0} अपठित संदेश हैं",
+    "YouHaveAnUnreadMessage": "आपके पास एक अपठित संदेश है",
+    "NewChatMessage": "नया चैट संदेश",
+    "Jan": "जनवरी",
+    "Feb": "फ़रवरी",
+    "Mar": "मार्च",
+    "Apr": "अप्रैल",
+    "May": "मई",
+    "Jun": "जून",
+    "Jul": "जुलाई",
+    "Aug": "अगस्त",
+    "Sept": "घराना",
+    "Oct": "अक्टूबर",
+    "Nov": "नवम्बर",
+    "Dec": "दिसम्बर"
+  }
+}

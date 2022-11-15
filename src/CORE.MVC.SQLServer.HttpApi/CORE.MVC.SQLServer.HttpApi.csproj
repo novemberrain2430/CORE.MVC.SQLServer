@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>CORE.MVC.SQLServer</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CORE.MVC.SQLServer.Application.Contracts\CORE.MVC.SQLServer.Application.Contracts.csproj" />
+  <ProjectReference Include="..\..\modules\Sample\src\Sample.HttpApi\Sample.HttpApi.csproj" /></ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.PermissionManagement.HttpApi" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.HttpApi" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.SettingManagement.HttpApi" Version="4.4.4" />
+    <ProjectReference Include="..\..\modules\Volo.Chat\src\Volo.Chat.HttpApi\Volo.Chat.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Forms\src\Volo.Forms.HttpApi\Volo.Forms.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.FileManagement\src\Volo.FileManagement.HttpApi\Volo.FileManagement.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Saas\src\Volo.Saas.Tenant.HttpApi\Volo.Saas.Tenant.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Payment\src\Volo.Payment.Admin.HttpApi\Volo.Payment.Admin.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Payment\src\Volo.Payment.HttpApi\Volo.Payment.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Payment\src\Volo.Payment.Stripe.HttpApi\Volo.Payment.Stripe.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.AuditLogging.Ui\src\Volo.Abp.AuditLogging.HttpApi\Volo.Abp.AuditLogging.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Identity.Pro\src\Volo.Abp.Identity.Pro.HttpApi\Volo.Abp.Identity.Pro.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Account.Pro\src\Volo.Abp.Account.Pro.Admin.HttpApi\Volo.Abp.Account.Pro.Admin.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Account.Pro\src\Volo.Abp.Account.Pro.Public.HttpApi\Volo.Abp.Account.Pro.Public.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Identityserver.Ui\src\Volo.Abp.IdentityServer.HttpApi\Volo.Abp.IdentityServer.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.LanguageManagement\src\Volo.Abp.LanguageManagement.HttpApi\Volo.Abp.LanguageManagement.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Docs\src\Volo.Docs.HttpApi\Volo.Docs.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Blogging\src\Volo.Blogging.Admin.HttpApi\Volo.Blogging.Admin.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Blogging\src\Volo.Blogging.HttpApi\Volo.Blogging.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Saas\src\Volo.Saas.Host.HttpApi\Volo.Saas.Host.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.LeptonTheme\src\Volo.Abp.LeptonTheme.Management.HttpApi\Volo.Abp.LeptonTheme.Management.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.TextTemplateManagement\src\Volo.Abp.TextTemplateManagement.HttpApi\Volo.Abp.TextTemplateManagement.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.CmsKit.Pro\src\Volo.CmsKit.Pro.HttpApi\Volo.CmsKit.Pro.HttpApi.csproj" />
+  </ItemGroup>
+
+</Project>

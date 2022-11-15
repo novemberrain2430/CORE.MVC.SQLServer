@@ -1,0 +1,31 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Volo.CmsKit.Localization
+@model Volo.CmsKit.Pro.Public.Web.Pages.Public.Shared.Components.Contact.ContactViewModel
+@addTagHelper *, Owl.reCAPTCHA
+@inject IHtmlLocalizer<CmsKitResource> L
+
+<div class="cms-contact-area container">
+    <form class="contact-form">
+        <abp-input asp-for="@Model.Name"/>
+
+        <abp-input asp-for="@Model.Subject"/>
+
+        <abp-input asp-for="@Model.EmailAddress"/>
+
+        <abp-input asp-for="@Model.Message"/>
+
+        <abp-input asp-for="@Model.RecaptchaToken"/>
+
+        <div class="form-group">
+            <abp-button class="btn-block btn-send-message" button-type="Danger">@L["SendMessage"] <i class="fa fa-long-arrow-right"></i></abp-button>
+        </div>
+    </form>
+</div>
+
+<recaptcha-script-v3/>
+<script>
+    function callback(token) {
+        document.getElementById("RecaptchaToken").value = token;
+    }
+</script>
+<recaptcha-script-v3-js action="contact_us" callback="callback"/>

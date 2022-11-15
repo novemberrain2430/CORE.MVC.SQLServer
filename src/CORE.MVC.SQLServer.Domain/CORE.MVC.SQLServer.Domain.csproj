@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>CORE.MVC.SQLServer</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CORE.MVC.SQLServer.Domain.Shared\CORE.MVC.SQLServer.Domain.Shared.csproj" />
+  <ProjectReference Include="..\..\modules\Sample\src\Sample.Domain\Sample.Domain.csproj" /></ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Emailing" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Domain.Identity" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.IdentityServer.Domain" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Domain.IdentityServer" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.BackgroundJobs.Domain" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.AuditLogging.Domain" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Domain" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Domain" Version="4.4.4" />
+    <PackageReference Include="Volo.Abp.BlobStoring.Database.Domain" Version="4.4.4" />
+    <ProjectReference Include="..\..\modules\Volo.Abp.Sms.Twilio\src\Volo.Abp.Sms.Twilio\Volo.Abp.Sms.Twilio.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Chat\src\Volo.Chat.Domain\Volo.Chat.Domain.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Forms\src\Volo.Forms.Domain\Volo.Forms.Domain.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.FileManagement\src\Volo.FileManagement.Domain\Volo.FileManagement.Domain.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Payment\src\Volo.Payment.Domain\Volo.Payment.Domain.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Payment\src\Volo.Payment.Iyzico.Domain\Volo.Payment.Iyzico.Domain.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Payment\src\Volo.Payment.PayPal.Domain\Volo.Payment.PayPal.Domain.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Payment\src\Volo.Payment.Payu.Domain\Volo.Payment.Payu.Domain.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Payment\src\Volo.Payment.Stripe.Domain\Volo.Payment.Stripe.Domain.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Payment\src\Volo.Payment.TwoCheckout.Domain\Volo.Payment.TwoCheckout.Domain.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Identity.Pro\src\Volo.Abp.Identity.Pro.Domain\Volo.Abp.Identity.Pro.Domain.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.LanguageManagement\src\Volo.Abp.LanguageManagement.Domain\Volo.Abp.LanguageManagement.Domain.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.LeptonTheme\src\Volo.Abp.LeptonTheme.Management.Domain\Volo.Abp.LeptonTheme.Management.Domain.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Docs\src\Volo.Docs.Domain\Volo.Docs.Domain.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Blogging\src\Volo.Blogging.Domain\Volo.Blogging.Domain.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.Saas\src\Volo.Saas.Domain\Volo.Saas.Domain.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.TextTemplateManagement\src\Volo.Abp.TextTemplateManagement.Domain\Volo.Abp.TextTemplateManagement.Domain.csproj" />
+    <ProjectReference Include="..\..\modules\Volo.CmsKit.Pro\src\Volo.CmsKit.Pro.Domain\Volo.CmsKit.Pro.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

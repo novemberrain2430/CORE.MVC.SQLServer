@@ -1,0 +1,18 @@
+{
+  "culture": "fi",
+  "texts": {
+    "Feature:IdentityGroup": "Identiteetti",
+    "Feature:TwoFactor": "Kahden tekijän käyttäytyminen",
+    "Feature:TwoFactorDescription": "Aseta kahden tekijän käyttäytyminen. Valinnaiset arvot: Valinnainen, Ei käytössä, Pakotettu",
+    "Feature:TwoFactor.Optional": "Valinnainen",
+    "Feature:TwoFactor.Disabled": "Liikuntarajoitteinen",
+    "Feature:TwoFactor.Forced": "Pakko",
+    "DisplayName:Abp.Identity.TwoFactorBehaviour": "Kahden tekijän käyttäytyminen",
+    "Description:Abp.Identity.TwoFactorBehaviour": "Kahden tekijän käyttäytyminen",
+    "DisplayName:Abp.Identity.UsersCanChange": "Salli käyttäjien vaihtaa kaksi tekijää.",
+    "Description:Abp.Identity.UsersCanChange": "Salli käyttäjien vaihtaa kaksi tekijää.",
+    "Feature:MaximumUserCount": "Käyttäjien enimmäismäärä",
+    "Feature:MaximumUserCountDescription": "0 = rajoittamaton",
+    "Volo.Abp.Identity:010009": "Saavutettu suurin sallittu käyttäjämäärä! Tällä vuokralaisella saa olla enintään {MaxUserCount} käyttäjää"
+  }
+}

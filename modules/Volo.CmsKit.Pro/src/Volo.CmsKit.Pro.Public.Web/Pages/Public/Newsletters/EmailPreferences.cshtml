@@ -1,0 +1,43 @@
+@page
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Volo.CmsKit.Localization
+@model Volo.CmsKit.Pro.Public.Web.Pages.Public.Newsletters.EmailPreferencesModel
+@inject IHtmlLocalizer<CmsKitResource> L
+
+@section scripts {
+    <abp-script src="/Pages/Public/Newsletters/EmailPreferences.js"/>
+}
+
+<div id="newsletter-manage" data-emailAddress="@Model.EmailAddress" class="col col-sm-12 offset-lg-2 col-lg-8 offset-md-2 col-md-8 p-5">
+    @if (Model.NewsletterPreferenceDetailsViewModels.Count > 0)
+    {
+        <h3 class="display-4">@L["UpdateYourEmailPreferences"]</h3>
+
+        <small>@L["EmailAddressPermissionManagement", Model.EmailAddress]</small>
+        <br/>
+        <br/>
+        <form id="newsletterUpdate">
+            <div class="form-group form-check">
+                <input type="checkbox" id="selectAll" class="form-check-input"/>
+                <label for="selectAll" class="form-check-label">@L["SelectAll"]</label>
+            </div>
+            @foreach (var newsletterPreference in Model.NewsletterPreferenceDetailsViewModels)
+            {
+                <div class="form-group form-check">
+                    <input id="newsletter-manage-@newsletterPreference.Preference" type="checkbox" @(newsletterPreference.IsSelectedByEmailAddress == true ? "checked" : "") data-preference="@newsletterPreference.Preference" class="form-check-input newsletter-preference-check"/>
+                    <label for="newsletter-manage-@newsletterPreference.Preference" class="form-check-label">@newsletterPreference.DisplayPreference</label>
+                    <br />
+                    &ensp;<label for="newsletter-manage-@newsletterPreference.Preference"><small for="newsletter-manage-@newsletterPreference.Preference" class="text-muted">@newsletterPreference.DisplayDefinition.TruncateWithPostfix(256)</small></label>
+                </div>
+            }
+            <abp-button class="mb-2 mt-2" button-type="Primary" type="submit" text=@L["SaveChanges"].Value />
+        </form>
+    }
+    else
+    {
+        <div>
+            <h1>@L["ThankYou"]</h1>
+            <p>@L["NewsletterEmailUnsubscriptionMessage"]</p>
+        </div>
+    }
+</div>

@@ -1,0 +1,94 @@
+@page
+@using Microsoft.AspNetCore.Authorization
+@using Volo.Abp.AspNetCore.Mvc.UI.Layout
+@using CORE.MVC.SQLServer.Permissions
+@using CORE.MVC.SQLServer.Web.Pages.Samples
+@using CORE.MVC.SQLServer.Web.Menus
+@using Microsoft.AspNetCore.Mvc.Localization
+@using CORE.MVC.SQLServer.Localization
+@inject IHtmlLocalizer<SQLServerResource> L
+@inject IAuthorizationService Authorization
+@model IndexModel
+@inject IPageLayout PageLayout
+@{
+    PageLayout.Content.Title = L["Samples"].Value;
+    PageLayout.Content.MenuItemName = SQLServerMenus.Samples;
+}
+
+@section scripts
+{
+    <abp-script src="/Pages/Samples/index.js" />
+}
+
+@section content_toolbar {
+    @if (await Authorization.IsGrantedAsync(SQLServerPermissions.Samples.Create))
+    {
+        <abp-button id="NewSampleButton" text="@L["NewSample"].Value" icon="plus" button-type="Primary" />
+    }
+}
+
+<abp-card>
+    <abp-card-body>
+		<abp-row class="mb-3">
+            <abp-column size-md="_12">
+                <form id="SearchForm" autocomplete="off">
+                    <div class="input-group">
+                        <input class="form-control" id="FilterText" placeholder="@L["Search"]"/>
+                        <div class="input-group-append">
+                            <abp-button button-type="Primary" type="submit" icon="search"/>
+                        </div>
+                    </div>
+                </form>
+            </abp-column>
+            <abp-column size-md="_12" class="mt-3">
+                <a href="javascript:;" id="AdvancedFilterSectionToggler">@L["SeeAdvancedFilters"]</a>
+            </abp-column>
+        </abp-row>
+
+        <abp-row id="AdvancedFilterSection" style="display: none;">
+            <abp-column size="_3">
+                <abp-input asp-for="NameFilter" label="@L["Name"].Value" />
+            </abp-column>
+            <abp-column size="_3">
+                <abp-input asp-for="Date1FilterMin" label="@L["MinDate1"].Value" type="date"/>
+            </abp-column>
+            <abp-column size="_3">
+                <abp-input asp-for="Date1FilterMax" label="@L["MaxDate1"].Value" type="date"/>
+            </abp-column>
+            <abp-column size="_3">
+                <abp-input asp-for="YearFilterMin" label="@L["MinYear"].Value" />
+            </abp-column>
+            <abp-column size="_3">
+                <abp-input asp-for="YearFilterMax" label="@L["MaxYear"].Value" />
+            </abp-column>
+            <abp-column size="_3">
+                <abp-input asp-for="CodeFilter" label="@L["Code"].Value" />
+            </abp-column>
+            <abp-column size="_3">
+                <abp-input asp-for="EmailFilter" label="@L["Email"].Value" />
+            </abp-column>
+            <abp-column size="_3">
+                <abp-select asp-for="IsConfirmFilter" label="@L["IsConfirm"].Value" />
+            </abp-column>
+            <abp-column size="_3">
+                <abp-input asp-for="UserIdFilter" label="@L["UserId"].Value" />
+            </abp-column>
+        </abp-row>
+
+        <abp-table striped-rows="true" id="SamplesTable">
+            <thead>
+				<tr>
+					<th>@L["Actions"]</th>
+					<th>@L["Name"]</th>
+					<th>@L["Date1"]</th>
+					<th>@L["Year"]</th>
+					<th>@L["Code"]</th>
+					<th>@L["Email"]</th>
+					<th>@L["IsConfirm"]</th>
+					<th>@L["UserId"]</th>
+
+				</tr>
+            </thead>
+        </abp-table>
+    </abp-card-body>
+</abp-card>

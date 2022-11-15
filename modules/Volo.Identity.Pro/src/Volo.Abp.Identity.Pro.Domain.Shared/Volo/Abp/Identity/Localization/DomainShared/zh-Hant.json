@@ -1,0 +1,18 @@
+{
+  "culture": "zh-Hant",
+  "texts": {
+    "Feature:IdentityGroup": "身份識別",
+    "Feature:TwoFactor": "雙因素身份驗證行為",
+    "Feature:TwoFactorDescription": "設置雙因素身份驗證行為. 可選值:可選,禁用,強制啟用",
+    "Feature:TwoFactor.Optional": "選用",
+    "Feature:TwoFactor.Disabled": "關閉",
+    "Feature:TwoFactor.Forced": "強制啟用",
+    "DisplayName:Abp.Identity.TwoFactorBehaviour": "雙因素認證行為",
+    "Description:Abp.Identity.TwoFactorBehaviour": "雙因素認證行為",
+    "DisplayName:Abp.Identity.UsersCanChange": "允許使用者變更雙因素認證.",
+    "Description:Abp.Identity.UsersCanChange": "允許使用者變更雙因素認證.",
+    "Feature:MaximumUserCount": "最大用戶數",
+    "Feature:MaximumUserCountDescription":"0 = 無限制",
+    "Volo.Abp.Identity:010009": "已達到允許的最大用戶數！允許此租戶最多擁有{MaxUserCount}名用戶."
+  }
+}

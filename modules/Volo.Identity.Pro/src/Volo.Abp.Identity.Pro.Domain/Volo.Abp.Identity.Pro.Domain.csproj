@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    
+    
+
+    <PropertyGroup><LangVersion>latest</LangVersion>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <AssemblyName>Volo.Abp.Identity.Pro.Domain</AssemblyName>
+        <PackageId>Volo.Abp.Identity.Pro.Domain</PackageId>
+        <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+        <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+        <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+        <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+        <RootNamespace />
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <ProjectReference Include="..\Volo.Abp.Identity.Pro.Domain.Shared\Volo.Abp.Identity.Pro.Domain.Shared.csproj" />
+        <PackageReference Include="Volo.Abp.Identity.Domain" Version="4.4.4" />
+        <PackageReference Include="Volo.Abp.Commercial.Core" Version="4.4.4" />
+    </ItemGroup>
+</Project>

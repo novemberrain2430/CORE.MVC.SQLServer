@@ -1,0 +1,33 @@
+{
+  "culture": "ar",
+  "texts": {
+    "Volo.Chat:010001": "يجب ألا تكون الرسالة فارغة!",
+    "Volo.Chat:010002": "مستخدم المستقبل غير موجود!",
+    "Volo.Chat:010003": "المستخدم الآخر غير موجود!",
+    "Permission:Chat": "محادثة",
+    "Permission:Messaging": "المراسلة",
+    "Feature:ChatGroup": "محادثة",
+    "Feature:ChatEnable": "تمكين الدردشة",
+    "Feature:ChatEnableDescription": "تفعيل نظام المراسلة في التطبيق.",
+    "SearchInContacts": "بحث في Contacs...",
+    "SendOnEnter": "أرسل عند الدخول",
+    "Send": "إرسال",
+    "OtherContacts": "جهات اتصال أخرى",
+    "TypeMessage": "اكتب رسالة",
+    "YouHave{0}UnreadMessages": "لديك {0} رسائل غير مقروءة",
+    "YouHaveAnUnreadMessage": "لديك رسالة غير مقروءة",
+    "NewChatMessage": "رسالة محادثة جديدة",
+    "Jan": "يناير",
+    "Feb": "فبراير",
+    "Mar": "مارس",
+    "Apr": "أبريل",
+    "May": "مايو",
+    "Jun": "يونيو",
+    "Jul": "يوليو",
+    "Aug": "أغسطس",
+    "Sept": "سبتمبر",
+    "Oct": "أكتوبر",
+    "Nov": "نوفمبر",
+    "Dec": "ديسمبر"
+  }
+}

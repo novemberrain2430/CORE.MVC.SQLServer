@@ -1,0 +1,62 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Volo.Abp.IdentityServer.Application.Contracts": {
+      "path": "src/Volo.Abp.IdentityServer.Application.Contracts/Volo.Abp.IdentityServer.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Abp.IdentityServer.Application": {
+      "path": "src/Volo.Abp.IdentityServer.Application/Volo.Abp.IdentityServer.Application.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Abp.IdentityServer.HttpApi": {
+      "path": "src/Volo.Abp.IdentityServer.HttpApi/Volo.Abp.IdentityServer.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Abp.IdentityServer.HttpApi.Client": {
+      "path": "src/Volo.Abp.IdentityServer.HttpApi.Client/Volo.Abp.IdentityServer.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Abp.IdentityServer.Web": {
+      "path": "src/Volo.Abp.IdentityServer.Web/Volo.Abp.IdentityServer.Web.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Abp.IdentityServer.Application.Tests": {
+      "path": "test/Volo.Abp.IdentityServer.Application.Tests/Volo.Abp.IdentityServer.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Volo.Abp.IdentityServer.Domain.Tests": {
+      "path": "test/Volo.Abp.IdentityServer.Domain.Tests/Volo.Abp.IdentityServer.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Volo.Abp.IdentityServer.EntityFrameworkCore.Tests": {
+      "path": "test/Volo.Abp.IdentityServer.EntityFrameworkCore.Tests/Volo.Abp.IdentityServer.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Volo.Abp.IdentityServer.TestBase": {
+      "path": "test/Volo.Abp.IdentityServer.TestBase/Volo.Abp.IdentityServer.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "Volo.Abp.IdentityServer.Blazor": {
+      "path": "src/Volo.Abp.IdentityServer.Blazor/Volo.Abp.IdentityServer.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Abp.IdentityServer.Blazor.Server": {
+      "path": "src/Volo.Abp.IdentityServer.Blazor.Server/Volo.Abp.IdentityServer.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Abp.IdentityServer.Blazor.WebAssembly": {
+      "path": "src/Volo.Abp.IdentityServer.Blazor.WebAssembly/Volo.Abp.IdentityServer.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Abp.IdentityServer.MongoDB.Tests": {
+      "path": "test/Volo.Abp.IdentityServer.MongoDB.Tests/Volo.Abp.IdentityServer.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    }
+  }
+}

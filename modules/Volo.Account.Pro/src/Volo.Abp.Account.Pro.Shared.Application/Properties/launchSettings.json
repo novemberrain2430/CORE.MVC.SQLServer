@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Volo.Abp.Account.Pro.Shared.Application": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:14594;http://localhost:14595"
+    }
+  }
+}

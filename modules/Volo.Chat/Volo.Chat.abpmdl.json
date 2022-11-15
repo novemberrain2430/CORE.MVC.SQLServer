@@ -1,0 +1,99 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Volo.Chat.Domain.Shared": {
+      "path": "src/Volo.Chat.Domain.Shared/Volo.Chat.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Chat.Domain": {
+      "path": "src/Volo.Chat.Domain/Volo.Chat.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Chat.Application.Contracts": {
+      "path": "src/Volo.Chat.Application.Contracts/Volo.Chat.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Chat.Application": {
+      "path": "src/Volo.Chat.Application/Volo.Chat.Application.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Chat.EntityFrameworkCore": {
+      "path": "src/Volo.Chat.EntityFrameworkCore/Volo.Chat.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Chat.MongoDB": {
+      "path": "src/Volo.Chat.MongoDB/Volo.Chat.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Chat.HttpApi": {
+      "path": "src/Volo.Chat.HttpApi/Volo.Chat.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Chat.HttpApi.Client": {
+      "path": "src/Volo.Chat.HttpApi.Client/Volo.Chat.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Chat.TestBase": {
+      "path": "test/Volo.Chat.TestBase/Volo.Chat.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "Volo.Chat.EntityFrameworkCore.Tests": {
+      "path": "test/Volo.Chat.EntityFrameworkCore.Tests/Volo.Chat.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Volo.Chat.MongoDB.Tests": {
+      "path": "test/Volo.Chat.MongoDB.Tests/Volo.Chat.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Volo.Chat.Domain.Tests": {
+      "path": "test/Volo.Chat.Domain.Tests/Volo.Chat.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Volo.Chat.Application.Tests": {
+      "path": "test/Volo.Chat.Application.Tests/Volo.Chat.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Volo.Chat.HttpApi.Host": {
+      "path": "host/Volo.Chat.HttpApi.Host/Volo.Chat.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Volo.Chat.Web": {
+      "path": "src/Volo.Chat.Web/Volo.Chat.Web.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Chat.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Volo.Chat.HttpApi.Client.ConsoleTestApp/Volo.Chat.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "Volo.Chat.Web.Host": {
+      "path": "host/Volo.Chat.Web.Host/Volo.Chat.Web.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Volo.Chat.IdentityServer": {
+      "path": "host/Volo.Chat.IdentityServer/Volo.Chat.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "Volo.Chat.Host.Shared": {
+      "path": "host/Volo.Chat.Host.Shared/Volo.Chat.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "Volo.Chat.Web.Unified": {
+      "path": "host/Volo.Chat.Web.Unified/Volo.Chat.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "Volo.Chat.SignalR": {
+      "path": "src/Volo.Chat.SignalR/Volo.Chat.SignalR.abppkg.json",
+      "folder": "src"
+    }
+  },
+  "analyze": {
+    "settingNamePrefix": "Volo.Chat",
+    "featureNamePrefix": "Volo.Chat"
+  }
+}

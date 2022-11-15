@@ -1,0 +1,50 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Volo.Abp.AuditLogging.Application.Contracts": {
+      "path": "src/Volo.Abp.AuditLogging.Application.Contracts/Volo.Abp.AuditLogging.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Abp.AuditLogging.Application": {
+      "path": "src/Volo.Abp.AuditLogging.Application/Volo.Abp.AuditLogging.Application.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Abp.AuditLogging.HttpApi": {
+      "path": "src/Volo.Abp.AuditLogging.HttpApi/Volo.Abp.AuditLogging.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Abp.AuditLogging.HttpApi.Client": {
+      "path": "src/Volo.Abp.AuditLogging.HttpApi.Client/Volo.Abp.AuditLogging.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Abp.AuditLogging.Web": {
+      "path": "src/Volo.Abp.AuditLogging.Web/Volo.Abp.AuditLogging.Web.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Abp.AuditLogging.Application.Tests": {
+      "path": "test/Volo.Abp.AuditLogging.Application.Tests/Volo.Abp.AuditLogging.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Volo.Abp.AuditLogging.Blazor": {
+      "path": "src/Volo.Abp.AuditLogging.Blazor/Volo.Abp.AuditLogging.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Abp.AuditLogging.Blazor.Server": {
+      "path": "src/Volo.Abp.AuditLogging.Blazor.Server/Volo.Abp.AuditLogging.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "Volo.Abp.AuditLogging.Blazor.WebAssembly": {
+      "path": "src/Volo.Abp.AuditLogging.Blazor.WebAssembly/Volo.Abp.AuditLogging.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    }
+  },
+  "analyze": {
+    "settingNamePrefix": "Volo.Abp.AuditLogging",
+    "featureNamePrefix": "Volo.Abp.AuditLogging"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "culture": "sk",
+  "texts": {
+    "Feature:IdentityGroup": "Identita",
+    "Feature:TwoFactor": "Chovanie dvojfaktorovej autentifikácie",
+    "Feature:TwoFactorDescription": "Nastavte chovanie dvojfaktorovej autentifikácie. Voliteľné hodnoty: Voliteľné,Zakázané,Vynútené",
+    "Feature:TwoFactor.Optional": "Voliteľné",
+    "Feature:TwoFactor.Disabled": "Zakázané",
+    "Feature:TwoFactor.Forced": "Vynútené",
+    "DisplayName:Abp.Identity.TwoFactorBehaviour": "Chovanie dvojfaktorovej autentifikácie",
+    "Description:Abp.Identity.TwoFactorBehaviour": "Chovanie dvojfaktorovej autentifikácie",
+    "DisplayName:Abp.Identity.UsersCanChange": "Umožniť používateľom zmeniť ich dvojfaktorovú autentifikáciu.",
+    "Description:Abp.Identity.UsersCanChange": "Umožniť používateľom zmeniť ich dvojfaktorovú autentifikáciu.",
+    "Feature:MaximumUserCount": "Maximálny počet používateľov",
+    "Feature:MaximumUserCountDescription": "0 = neobmedzený",
+    "Volo.Abp.Identity:010009": "Dosiahnutý maximálny povolený počet používateľov! Tento tenant môže mať maximálne {MaxUserCount} používateľov."
+  }
+}

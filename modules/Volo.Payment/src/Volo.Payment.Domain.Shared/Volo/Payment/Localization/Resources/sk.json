@@ -1,0 +1,10 @@
+{
+  "culture": "sk",
+  "texts": {
+    "paypal": "PayPal",
+    "payu": "PayU",
+    "PayWithGateway": "Zaplatiť pomocou {0}",
+    "stripe": "Stripe",
+    "two-checkout": "2Checkout"
+  }
+}

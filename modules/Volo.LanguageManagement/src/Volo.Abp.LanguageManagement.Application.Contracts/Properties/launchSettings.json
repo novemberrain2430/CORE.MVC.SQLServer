@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Volo.Abp.LanguageManagement.Application.Contracts": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:14586;http://localhost:14587"
+    }
+  }
+}

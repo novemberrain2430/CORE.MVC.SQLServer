@@ -1,0 +1,28 @@
+﻿@page
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Volo.Abp.Account.Localization
+@using Volo.Abp.Account.Public.Web.Pages.Account.LinkUsers
+@using Volo.Abp.Users
+@model LinkUsersModalModel
+@inject IHtmlLocalizer<AccountResource> L
+@inject ICurrentUser CurrentUser
+@{
+    Layout = null;
+}
+<abp-modal>
+    <abp-modal-header title="@L["LinkedAccounts"].Value"></abp-modal-header>
+    <abp-modal-body>
+        <div class="text-right mb-3">
+            <abp-button button-type="Primary" id="CreateLinkUser" text="@L["NewLinkAccount"].Value"/>
+        </div>
+
+        <form method="post" data-ajaxForm="false" asp-page="/Account/Login" asp-page-handler="LinkLogin" id="linkUserLoginForm">
+            <input type="hidden" name="LinkUserId">
+            <input type="hidden" name="LinkTenantId">
+        </form>
+
+        <abp-table striped-rows="true" id="MyLinkUsersTable" class="nowrap"></abp-table>
+    </abp-modal-body>
+</abp-modal>
+
+<abp-script src="/Pages/Account/LinkUsers/LinkUsersModal.js" />

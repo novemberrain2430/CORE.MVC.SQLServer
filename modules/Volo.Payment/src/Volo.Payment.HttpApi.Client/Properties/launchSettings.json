@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Volo.Payment.HttpApi.Client": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:14578;http://localhost:14579"
+    }
+  }
+}

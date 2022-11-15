@@ -1,0 +1,28 @@
+﻿@page
+@model Volo.Abp.Account.Public.Web.Pages.Account.LinkLoggedModel
+@inject Volo.Abp.AspNetCore.Mvc.UI.Layout.IPageLayout PageLayout
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Volo.Abp.Account.Localization
+@inject IHtmlLocalizer<AccountResource> L
+@{
+    PageLayout.Content.Title = L["LinkLogged"].Value;
+}
+
+@if (@Model.IsSpaReturnUrl)
+{
+    <div>
+        <a href="@Model.GetSpaLinkLoginReturnUrl(Model.ReturnUrl)" class="btn btn-primary btn-block mb-3"> &larr; @L["StayWithCurrentAccount"]</a>
+        <a href="@Model.GetSpaReturnUrl(Model.ReturnUrl)" class="btn btn-secondary btn-block">@L["ReturnToPreviousAccount", Model.TenantAndUserName] &rarr;</a>
+    </div>
+}
+else
+{
+    <div>
+        <a href="@Url.Content(Model.GetReturnUrl(Model.ReturnUrl, Model.ReturnUrlHash))" class="btn btn-primary btn-block mb-3"> &larr; @L["StayWithCurrentAccount"]</a>
+        <form method="post" asp-page="/Account/Login" asp-page-handler="LinkLogin" asp-route-returnUrl="@Model.ReturnUrl" asp-route-returnUrlHash="@Model.ReturnUrlHash">
+            <input asp-for="LinkTenantId" >
+            <input asp-for="LinkUserId" >
+            <abp-button class="btn-secondary btn-block" type="submit">@L["ReturnToPreviousAccount", Model.TenantAndUserName] &rarr;</abp-button>
+        </form>
+    </div>
+}

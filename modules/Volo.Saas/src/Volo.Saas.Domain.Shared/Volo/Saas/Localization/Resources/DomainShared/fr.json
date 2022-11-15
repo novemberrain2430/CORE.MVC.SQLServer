@@ -1,0 +1,30 @@
+{
+  "culture": "fr",
+  "texts": {
+    "Volo.Saas:DuplicateTenantName": "Le nom du locataire existe déjà: {Name}",
+    "Menu:Saas": "Saas",
+    "Tenants": "Souscrivants",
+    "NewTenant": "Nouveau locataire",
+    "TenantName": "Nom du locataire",
+    "DisplayName:TenantName": "Nom du locataire",
+    "TenantDeletionConfirmationMessage": "Le locataire \"{0}\" sera supprimé. Le confirmez-vous?",
+    "EditionDeletionConfirmationMessage": "L'édition \"{0}\" sera supprimée. Le confirmez-vous?",
+    "ConnectionStrings": "Chaînes de connexion",
+    "DisplayName:UseSharedDatabase": "Utiliser la base de données partagée",
+    "DisplayName:EditionId": "Édition",
+    "Edition": "Édition",
+    "Editions": "Éditions",
+    "NewEdition": "Nouvelle édition",
+    "EditionName": "Nom de l'édition",
+    "Name": "Nom",
+    "LatestTenants": "Derniers locataires",
+    "EditionUsageStatistics": "Statistiques d'utilisation de l'édition",
+    "DisplayName:AdminEmailAddress": "Adresse e-mail de l'administrateur du locataire",
+    "DisplayName:AdminPassword": "Mot de passe de l'administrateur du locataire",
+    "ChangeHistory": "Historique des modifications",
+    "ManageHostFeatures": "Gérer les fonctionnalités de l'hôte",
+    "ApplyDatabaseMigrations": "Appliquer les migrations de bases de données",
+    "DatabaseMigrationQueuedAndWillBeApplied": "La migration de la base de données a été mise en file d'attente et sera bientôt appliquée.",
+    "Saas:Edition:0001": "Edition doesn't have a plan!"
+  }
+}

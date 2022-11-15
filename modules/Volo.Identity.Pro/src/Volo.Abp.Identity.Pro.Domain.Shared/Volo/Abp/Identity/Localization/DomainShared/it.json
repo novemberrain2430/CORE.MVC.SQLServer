@@ -1,0 +1,18 @@
+{
+  "culture": "it",
+  "texts": {
+    "Feature:IdentityGroup": "Identità",
+    "Feature:TwoFactor": "Comportamento a due fattori",
+    "Feature:TwoFactorDescription": "Imposta un comportamento a due fattori. Valori facoltativi: facoltativo, disabilitato, forzato",
+    "Feature:TwoFactor.Optional": "Opzionale",
+    "Feature:TwoFactor.Disabled": "Disabilitato",
+    "Feature:TwoFactor.Forced": "Forzato",
+    "DisplayName:Abp.Identity.TwoFactorBehaviour": "Comportamento a due fattori",
+    "Description:Abp.Identity.TwoFactorBehaviour": "Comportamento a due fattori",
+    "DisplayName:Abp.Identity.UsersCanChange": "Consenti agli utenti di modificare i loro due fattori.",
+    "Description:Abp.Identity.UsersCanChange": "Consenti agli utenti di modificare i loro due fattori.",
+    "Feature:MaximumUserCount": "Numero massimo di utenti",
+    "Feature:MaximumUserCountDescription": "0 = illimitato",
+    "Volo.Abp.Identity:010009": "Conteggio utenti massimo consentito raggiunto! Questo tenant può avere un massimo di {MaxUserCount} utenti."
+  }
+}

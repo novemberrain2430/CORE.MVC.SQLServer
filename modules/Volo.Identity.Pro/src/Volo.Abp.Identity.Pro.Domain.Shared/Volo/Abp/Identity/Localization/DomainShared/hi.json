@@ -1,0 +1,18 @@
+{
+  "culture": "hi",
+  "texts": {
+    "Feature:IdentityGroup": "पहचान",
+    "Feature:TwoFactor": "दो कारक व्यवहार",
+    "Feature:TwoFactorDescription": "दो कारक व्यवहार सेट करें। वैकल्पिक मूल्य: वैकल्पिक, अक्षम, मजबूर",
+    "Feature:TwoFactor.Optional": "ऐच्छिक",
+    "Feature:TwoFactor.Disabled": "विकलांग",
+    "Feature:TwoFactor.Forced": "मजबूर",
+    "DisplayName:Abp.Identity.TwoFactorBehaviour": "दो कारक व्यवहार",
+    "Description:Abp.Identity.TwoFactorBehaviour": "दो कारक व्यवहार",
+    "DisplayName:Abp.Identity.UsersCanChange": "उपयोगकर्ताओं को अपने दो कारक बदलने की अनुमति दें।",
+    "Description:Abp.Identity.UsersCanChange": "उपयोगकर्ताओं को अपने दो कारक बदलने की अनुमति दें।",
+    "Feature:MaximumUserCount": "अधिकतम उपयोगकर्ता गणना",
+    "Feature:MaximumUserCountDescription": "0 = असीमित",
+    "Volo.Abp.Identity:010009": "अधिकतम अनुमत उपयोगकर्ता संख्या तक पहुँच गया! इस किरायेदार को अधिकतम {MaxUserCount} उपयोगकर्ता की अनुमति है।"
+  }
+}

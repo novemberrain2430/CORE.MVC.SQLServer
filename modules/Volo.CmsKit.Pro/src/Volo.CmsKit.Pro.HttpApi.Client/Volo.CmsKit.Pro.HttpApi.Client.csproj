@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  
+  
+
+  <PropertyGroup><LangVersion>latest</LangVersion>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.CmsKit.HttpApi.Client" Version="4.4.4" />
+    <ProjectReference Include="..\Volo.CmsKit.Pro.Admin.HttpApi.Client\Volo.CmsKit.Pro.Admin.HttpApi.Client.csproj" />
+    <ProjectReference Include="..\Volo.CmsKit.Pro.Application.Contracts\Volo.CmsKit.Pro.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Volo.CmsKit.Pro.Public.HttpApi.Client\Volo.CmsKit.Pro.Public.HttpApi.Client.csproj" />
+  </ItemGroup>
+
+</Project>

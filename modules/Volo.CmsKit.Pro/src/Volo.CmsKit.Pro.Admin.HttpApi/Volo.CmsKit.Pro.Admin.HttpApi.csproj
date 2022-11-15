@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  
+  
+
+  <PropertyGroup><LangVersion>latest</LangVersion>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="15.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.CmsKit.Admin.HttpApi" Version="4.4.4" />
+    <ProjectReference Include="..\Volo.CmsKit.Pro.Admin.Application.Contracts\Volo.CmsKit.Pro.Admin.Application.Contracts.csproj" />
+    <PackageReference Include="Volo.Abp.Commercial.Core" Version="4.4.4" />
+  </ItemGroup>
+
+</Project>

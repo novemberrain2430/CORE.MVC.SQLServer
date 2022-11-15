@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Volo.Blogging.Domain.Shared": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:14618;http://localhost:14619"
+    }
+  }
+}

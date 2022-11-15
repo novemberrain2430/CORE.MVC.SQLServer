@@ -1,0 +1,68 @@
+@page
+@using Microsoft.AspNetCore.Authorization
+@using Volo.Abp.AspNetCore.Mvc.UI.Layout
+@using Sample.Permissions
+@using Sample.Web.Pages.Sample.Books
+@using Sample.Web.Menus
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Sample.Localization
+@inject IHtmlLocalizer<SampleResource> L
+@inject IAuthorizationService Authorization
+@model IndexModel
+@inject IPageLayout PageLayout
+@{
+    PageLayout.Content.Title = L["Books"].Value;
+    PageLayout.Content.MenuItemName = SampleMenus.Books;
+}
+
+@section scripts
+{
+    <abp-script src="/Pages/Sample/Books/index.js" />
+}
+
+@section content_toolbar {
+    @if (await Authorization.IsGrantedAsync(SamplePermissions.Books.Create))
+    {
+        <abp-button id="NewBookButton" text="@L["NewBook"].Value" icon="plus" button-type="Primary" />
+    }
+}
+
+<abp-card>
+    <abp-card-body>
+		<abp-row class="mb-3">
+            <abp-column size-md="_12">
+                <form id="SearchForm" autocomplete="off">
+                    <div class="input-group">
+                        <input class="form-control" id="FilterText" placeholder="@L["Search"]"/>
+                        <div class="input-group-append">
+                            <abp-button button-type="Primary" type="submit" icon="search"/>
+                        </div>
+                    </div>
+                </form>
+            </abp-column>
+            <abp-column size-md="_12" class="mt-3">
+                <a href="javascript:;" id="AdvancedFilterSectionToggler">@L["SeeAdvancedFilters"]</a>
+            </abp-column>
+        </abp-row>
+
+        <abp-row id="AdvancedFilterSection" style="display: none;">
+            <abp-column size="_3">
+                <abp-input asp-for="NameFilter" label="@L["Name"].Value" />
+            </abp-column>
+            <abp-column size="_3">
+                <abp-input asp-for="CodeFilter" label="@L["Code"].Value" />
+            </abp-column>
+        </abp-row>
+
+        <abp-table striped-rows="true" id="BooksTable">
+            <thead>
+				<tr>
+					<th>@L["Actions"]</th>
+					<th>@L["Name"]</th>
+					<th>@L["Code"]</th>
+
+				</tr>
+            </thead>
+        </abp-table>
+    </abp-card-body>
+</abp-card>

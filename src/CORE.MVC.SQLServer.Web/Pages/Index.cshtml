@@ -1,0 +1,31 @@
+﻿@page
+@model CORE.MVC.SQLServer.Web.Pages.IndexModel
+@using Microsoft.AspNetCore.Mvc.Localization
+@using CORE.MVC.SQLServer.Web.Menus
+@using Volo.Abp.AspNetCore.Mvc.UI.Layout
+@using CORE.MVC.SQLServer.Localization
+@using Volo.Abp.Users
+@inject IHtmlLocalizer<SQLServerResource> L
+@inject ICurrentUser CurrentUser
+@*@inject IPageLayout PageLayout*@
+@{
+    ViewBag.PageTitle = L["Home"];
+    //PageLayout.Content.Title = L["Home"].Value;
+    //PageLayout.Content.MenuItemName = AOMSMenus.Home;
+}
+
+<abp-card>
+    <abp-card-header>@L["Welcome"]</abp-card-header>
+    <abp-card-body>
+        <p>@L["LongWelcomeMessage"]</p>
+
+        @if (!CurrentUser.IsAuthenticated)
+        {
+            <a abp-button="Primary" href="~/Account/Login">@L["Login"]</a>
+        }
+
+        <hr />
+        <p class="text-right"><a href="https://abp.io?ref=tmpl" target="_blank">abp.io</a></p>
+    </abp-card-body>
+</abp-card>
+

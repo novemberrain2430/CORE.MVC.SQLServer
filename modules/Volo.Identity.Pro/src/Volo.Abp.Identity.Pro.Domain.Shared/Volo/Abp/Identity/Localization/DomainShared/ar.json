@@ -1,0 +1,18 @@
+{
+  "culture": "ar",
+  "texts": {
+    "Feature:IdentityGroup": "هوية",
+    "Feature:TwoFactor": "عاملين سلوك",
+    "Feature:TwoFactorDescription": "حدد سلوك عاملين. القيم الاختيارية: اختيارية ، معطلة ، إجبارية",
+    "Feature:TwoFactor.Optional": "اختياري",
+    "Feature:TwoFactor.Disabled": "معاق",
+    "Feature:TwoFactor.Forced": "قسري",
+    "DisplayName:Abp.Identity.TwoFactorBehaviour": "اثنان عامل السلوك",
+    "Description:Abp.Identity.TwoFactorBehaviour": "اثنان عامل السلوك",
+    "DisplayName:Abp.Identity.UsersCanChange": "السماح للمستخدمين بتغيير العامل الثاني الخاص بهم.",
+    "Description:Abp.Identity.UsersCanChange": "السماح للمستخدمين بتغيير العامل الثاني الخاص بهم.",
+    "Feature:MaximumUserCount": "الحد الأقصى لعدد المستخدمين",
+    "Feature:MaximumUserCountDescription": " = غير محدود",
+    "Volo.Abp.Identity:010009": "يسمح لهذا العميل {MaxUserCount} مستخدم بحد أقصى. وصلت إلى الحد الأقصى المسموح به للمستخدمين!"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "culture": "ar",
+  "texts": {
+    "Volo.Saas:DuplicateTenantName": "اسم المستأجر موجود بالفعل: {Name}",
+    "Menu:Saas": "ساس",
+    "Tenants": "المستأجرين",
+    "NewTenant": "مستأجر جديد",
+    "TenantName": "اسم المستأجر",
+    "DisplayName:TenantName": "اسم المستأجر",
+    "TenantDeletionConfirmationMessage": "سيتم حذف المستأجر \"{0}\". هل تؤكد ذلك؟",
+    "EditionDeletionConfirmationMessage": "سيتم حذف الإصدار \"{0}\". هل تؤكد ذلك؟",
+    "ConnectionStrings": "سلاسل الاتصال",
+    "DisplayName:UseSharedDatabase": "استخدم قاعدة البيانات المشتركة",
+    "DisplayName:EditionId": "الإصدار",
+    "Edition": "الإصدار",
+    "Editions": "طبعات",
+    "NewEdition": "طبعة جديدة",
+    "EditionName": "اسم الإصدار",
+    "Name": "اسم",
+    "LatestTenants": "أحدث المستأجرين",
+    "EditionUsageStatistics": "إحصائيات استخدام الإصدار",
+    "DisplayName:AdminEmailAddress": "عنوان البريد الإلكتروني لمدير المستأجر",
+    "DisplayName:AdminPassword": "كلمة مرور مسؤول المستأجر",
+    "ChangeHistory": "تغيير التاريخ",
+    "ManageHostFeatures": "إدارة ميزات المضيف",
+    "ApplyDatabaseMigrations": "تطبيق عمليات ترحيل قاعدة البيانات",
+    "DatabaseMigrationQueuedAndWillBeApplied": "تم وضع ترحيل قاعدة البيانات في قائمة الانتظار وسيتم تطبيقه قريبًا.",
+    "Saas:Edition:0001": "Edition doesn't have a plan!"
+  }
+}

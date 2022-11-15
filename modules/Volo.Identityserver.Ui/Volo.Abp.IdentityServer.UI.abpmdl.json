@@ -1,0 +1,107 @@
+{
+  "folders": {
+    "src": {},
+    "test": {}
+  },
+  "imports": {
+    "Volo.Abp.IdentityServer": {
+      "path": "../../../abp/modules/identityserver/Volo.Abp.IdentityServer.abpmdl.json"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "path": "../../../abp/modules/permission-management/Volo.Abp.PermissionManagement.abpmdl.json"
+    }
+  },
+  "packages": {
+    "Volo.Abp.IdentityServer.Application.Contracts": {
+      "path": "src/Volo.Abp.IdentityServer.Application.Contracts/Volo.Abp.IdentityServer.Application.Contracts.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.application.contracts": {}
+      }
+    },
+    "Volo.Abp.IdentityServer.Application": {
+      "path": "src/Volo.Abp.IdentityServer.Application/Volo.Abp.IdentityServer.Application.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.application": {}
+      }
+    },
+    "Volo.Abp.IdentityServer.HttpApi": {
+      "path": "src/Volo.Abp.IdentityServer.HttpApi/Volo.Abp.IdentityServer.HttpApi.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.http-api": {}
+      }
+    },
+    "Volo.Abp.IdentityServer.HttpApi.Client": {
+      "path": "src/Volo.Abp.IdentityServer.HttpApi.Client/Volo.Abp.IdentityServer.HttpApi.Client.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.http-api-client": {}
+      }
+    },
+    "Volo.Abp.IdentityServer.Web": {
+      "path": "src/Volo.Abp.IdentityServer.Web/Volo.Abp.IdentityServer.Web.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.ui.mvc": {}
+      }
+    },
+    "Volo.Abp.IdentityServer.Blazor": {
+      "path": "src/Volo.Abp.IdentityServer.Blazor/Volo.Abp.IdentityServer.Blazor.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.ui.blazor": {}
+      }
+    },
+    "Volo.Abp.IdentityServer.Blazor.Server": {
+      "path": "src/Volo.Abp.IdentityServer.Blazor.Server/Volo.Abp.IdentityServer.Blazor.Server.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.ui.blazor-server": {}
+      }
+    },
+    "Volo.Abp.IdentityServer.Blazor.WebAssembly": {
+      "path": "src/Volo.Abp.IdentityServer.Blazor.WebAssembly/Volo.Abp.IdentityServer.Blazor.WebAssembly.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.ui.blazor-wasm": {}
+      }
+    },
+    "Volo.Abp.IdentityServer.TestBase": {
+      "path": "test/Volo.Abp.IdentityServer.TestBase/Volo.Abp.IdentityServer.TestBase.csproj",
+      "folder": "test",
+      "includes": {
+        "lib.test": {}
+      }
+    },
+    "Volo.Abp.IdentityServer.Domain.Tests": {
+      "path": "test/Volo.Abp.IdentityServer.Domain.Tests/Volo.Abp.IdentityServer.Domain.Tests.csproj",
+      "folder": "test",
+      "includes": {
+        "lib.test": {}
+      }
+    },
+    "Volo.Abp.IdentityServer.EntityFrameworkCore.Tests": {
+      "path": "test/Volo.Abp.IdentityServer.EntityFrameworkCore.Tests/Volo.Abp.IdentityServer.EntityFrameworkCore.Tests.csproj",
+      "folder": "test",
+      "includes": {
+        "lib.test": {}
+      }
+    },
+    "Volo.Abp.IdentityServer.MongoDB.Tests": {
+      "path": "test/Volo.Abp.IdentityServer.MongoDB.Tests/Volo.Abp.IdentityServer.MongoDB.Tests.csproj",
+      "folder": "test",
+      "includes": {
+        "lib.test": {}
+      }
+    },
+    "Volo.Abp.IdentityServer.Application.Tests": {
+      "path": "test/Volo.Abp.IdentityServer.Application.Tests/Volo.Abp.IdentityServer.Application.Tests.csproj",
+      "folder": "test",
+      "includes": {
+        "lib.test": {}
+      }
+    }
+  }
+}

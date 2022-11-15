@@ -1,0 +1,10 @@
+﻿{
+	"culture": "ar",
+	"texts": {
+		"PayWithGateway": "الدفع بـ {0}",
+		"two-checkout": "2 تسجيل الخروج",
+		"payu": "PayU",
+		"paypal": "باي بال",
+		"stripe": "شريط"
+	}
+} 

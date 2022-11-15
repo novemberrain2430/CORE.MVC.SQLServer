@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Volo.Docs.EntityFrameworkCore": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:14604;http://localhost:14605"
+    }
+  }
+}

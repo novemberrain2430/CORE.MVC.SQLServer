@@ -1,0 +1,22 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using Volo.CmsKit.Localization
+@inject IHtmlLocalizer<CmsKitResource> L
+@model Volo.CmsKit.Admin.Contact.CmsKitContactSettingDto
+
+<abp-tabs>
+    <abp-tab active="true" title="@L["CmsKitPro:Contact"].Value">
+        <form id="CmsKitProContactSettingsForm">
+            <abp-row>
+                <abp-column size-md="_12">
+                    <div>
+                        <abp-input asp-for="ReceiverEmailAddress" label="@L["ReceiverEmailAddress"].Value" />
+                    </div>
+                    <hr class="my-4" />
+                    <div>
+                        <abp-button button-type="Primary" type="submit"><i class="fa fa-save"></i> @L["Save"]</abp-button>
+                    </div>
+                </abp-column>
+            </abp-row>
+        </form>
+    </abp-tab>
+</abp-tabs>

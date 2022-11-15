@@ -1,0 +1,32 @@
+{
+  "culture": "it",
+  "texts": {
+    "Permission:PaymentPlanManagement": "Gestione Piani Pagamento",
+    "Permission:PaymentPlanManagement.Create": "Crea",
+    "Permission:PaymentPlanManagement.Delete": "Cancella",
+    "Permission:PaymentPlanManagement.Update": "Aggiorna",
+    "Permission:PaymentGatewayPlanManagement": "Gestione Piani Gateway Pagamento",
+    "Permission:PaymentGatewayPlanManagement.Create": "Crea",
+    "Permission:PaymentGatewayPlanManagement.Delete": "Cancella",
+    "Permission:PaymentGatewayPlanManagement.Update": "Aggiorna",
+    "Plans": "Piani",
+    "Menu:PaymentManagement": "Pagamento",
+    "Menu:Plans": "Piani Pagamento",
+    "PlanDeletionConfirmationMessage": "Il piano sarà cancellato. Sei sicuro?",
+    "GatewayPlanDeletionConfirmationMessage": "Il piano gateway del sarà cancellato. Sei sicuro?",
+    "NewPlan": "Nuovo Piano",
+    "Payment:Request:0001": "Non posso aggiornare Piano Id Esterno esistente",
+    "PayWithGateway": "Paga con {0}",
+    "NewGatewayPlan": "Nuovo Piano Gateway",
+    "GatewayPlans": "Gestici i Piani Gateway",
+    "DisplayName:Name": "Nome",
+    "DisplayName:Gateway": "Gateway",
+    "DisplayName:ExternalId": "Id Esterno",
+    "Edit": "Modifica",
+    "Delete": "Cancella",
+    "two-checkout": "2Checkout",
+    "payu": "PayU",
+    "paypal": "PayPal",
+    "stripe": "Stripe"
+  }
+}

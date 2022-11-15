@@ -1,0 +1,33 @@
+{
+  "culture": "en",
+  "texts": {
+    "Delete": "Delete",
+    "DisplayName:ExternalId": "External Id",
+    "DisplayName:Gateway": "Gateway",
+    "DisplayName:Name": "Name",
+    "Edit": "Edit",
+    "GatewayPlanDeletionConfirmationMessage": "The gateway plan will be deleted. Are you sure?",
+    "GatewayPlans": "Manage Gateway Plans",
+    "Menu:PaymentManagement": "Payment",
+    "Menu:Plans": "Payment Plans",
+    "NewGatewayPlan": "New Gateway Plan",
+    "NewPlan": "New Plan",
+    "Payment:Request:0001": "Can't update existing External Plan Id",
+    "paypal": "PayPal",
+    "payu": "PayU",
+    "PayWithGateway": "Pay with {0}",
+    "Permission:PaymentGatewayPlanManagement": "Payment Gateway Plan Management",
+    "Permission:PaymentGatewayPlanManagement.Create": "Create",
+    "Permission:PaymentGatewayPlanManagement.Delete": "Delete",
+    "Permission:PaymentGatewayPlanManagement.Update": "Update",
+    "Permission:PaymentPlanManagement": "Payment Plan Management",
+    "Permission:PaymentPlanManagement.Create": "Create",
+    "Permission:PaymentPlanManagement.Delete": "Delete",
+    "Permission:PaymentPlanManagement.Update": "Update",
+    "PlanDeletionConfirmationMessage": "The plan will be deleted. Are you sure?",
+    "Plans": "Plans",
+    "Search": "Search",
+    "stripe": "Stripe",
+    "two-checkout": "2Checkout"
+  }
+}
