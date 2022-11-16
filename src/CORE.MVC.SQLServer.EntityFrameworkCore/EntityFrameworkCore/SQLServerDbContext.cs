@@ -8,6 +8,13 @@ using Volo.Abp.Identity;
 using Volo.Abp.Users.EntityFrameworkCore;
 using CORE.MVC.SQLServer.Books;
 using CORE.MVC.SQLServer.Authors;
+using CORE.MVC.SQLServer.Shifts;
+using CORE.MVC.SQLServer.Absents;
+using CORE.MVC.SQLServer.Holidays;
+using CORE.MVC.SQLServer.TinhCongs;
+using CORE.MVC.SQLServer.InOuts;
+using CORE.MVC.SQLServer.Weekends;
+using CORE.MVC.SQLServer.CodeChamCongs;
 
 namespace CORE.MVC.SQLServer.EntityFrameworkCore
 {
@@ -17,6 +24,14 @@ namespace CORE.MVC.SQLServer.EntityFrameworkCore
         public DbSet<Xample> Xamples { get; set; }
         public DbSet<Book> Books { get; set; }
         public DbSet<Author> Authors { get; set; }
+        public DbSet<Shift> Shifts { set; get; }
+        public DbSet<Absent> Absents { set; get; }
+        public DbSet<Holiday> Holidays { get; set; }
+        public DbSet<TinhCong> TinhCongs { set; get; }
+        public DbSet<InOut> InOuts { set; get; }
+        public DbSet<Weekend> Weekends { set; get; }
+        public DbSet<CodeChamCong> CodeChamCongs { set; get; }
+
         public SQLServerDbContext(DbContextOptions<SQLServerDbContext> options)
             : base(options)
         {
@@ -66,6 +81,58 @@ namespace CORE.MVC.SQLServer.EntityFrameworkCore
                     .HasMaxLength(AuthorConsts.MaxNameLength);
 
                 b.HasIndex(x => x.Name);
+            });
+            builder.Entity<Shift>(b =>
+            {
+                b.ToTable(SQLServerConsts.DbTablePrefix+ "_CC_" + "Shifts",
+                    SQLServerConsts.DbSchema);
+
+                b.ConfigureByConvention();
+                b.HasIndex(x => x.Name);
+            });
+            builder.Entity<Absent>(b =>
+            {
+                b.ToTable(SQLServerConsts.DbTablePrefix + "_CC_" + "Absents",
+                    SQLServerConsts.DbSchema);
+
+                b.ConfigureByConvention();
+                b.HasIndex(x => x.Name);
+            });
+            builder.Entity<Holiday>(b =>
+            {
+                b.ToTable(SQLServerConsts.DbTablePrefix + "_CC_" + "Holidays",
+                    SQLServerConsts.DbSchema);
+
+                b.ConfigureByConvention();
+                b.HasIndex(x => x.Name);
+            });
+            builder.Entity<TinhCong>(b =>
+            {
+                b.ToTable(SQLServerConsts.DbTablePrefix + "_CC_" + "TinhCongs",
+                    SQLServerConsts.DbSchema);
+
+                b.ConfigureByConvention();
+            });
+            builder.Entity<InOut>(b =>
+            {
+                b.ToTable(SQLServerConsts.DbTablePrefix + "_CC_" + "InOuts",
+                    SQLServerConsts.DbSchema);
+
+                b.ConfigureByConvention();
+            });
+            builder.Entity<Weekend>(b =>
+            {
+                b.ToTable(SQLServerConsts.DbTablePrefix + "_CC_" + "Weekends",
+                    SQLServerConsts.DbSchema);
+
+                b.ConfigureByConvention();
+            });
+            builder.Entity<CodeChamCong>(b =>
+            {
+                b.ToTable(SQLServerConsts.DbTablePrefix + "_CC_" + "CodeChamCongs",
+                    SQLServerConsts.DbSchema);
+
+                b.ConfigureByConvention();
             });
 
         }
